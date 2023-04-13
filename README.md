@@ -1,5 +1,17 @@
-80mm thermal printer driver
+80mm thermal printer driver tested and powered by Runelab S.R.L
 =====
+
+to make the printer work install the normal drivers from producer website, after this compile those repo using the command
+
+make -f Makefile --> this command will compile the c custom drivers compatible with ARM (so Rasberry PI and similars)
+
+after that lunch as root the command
+
+sudo ./install --> this command will replace the old drivers with the new custom ARM drivers but leaving all the others settings as before
+
+for any info or help contact me at marcobert37@gmail.com
+
+----------------------------------------------------------------------------------------------------------
 
 CUPS filter for thermal printer Excelvan ZJ-8001 and VT-8330
 
